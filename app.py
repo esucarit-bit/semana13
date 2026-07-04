@@ -9,7 +9,7 @@ def inicio():
     return """
     <h1>Comercial Andina S.A.C.</h1>
     <p>Aplicación demo para prueba de escalabilidad y autoescalado.</p>
-    <a href="/cotizar">Generar cotización</a>
+    <a href="/cotizar">Generar cotizacion</a>
     """
     
 @app.route("/cotizar")
