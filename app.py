@@ -8,7 +8,7 @@ app = Flask(__name__)
 def inicio():
     return """
     <h1>Comercial Andina S.A.C.</h1>
-    <p>Aplicación demo para prueba de escalabilidad y autoescalado.</p>
+    <p>Aplicacion demo para prueba de escalabilidad y autoescalado.</p>
     <a href="/cotizar">Generar cotizacion</a>
     """
     
@@ -24,7 +24,7 @@ def cotizar():
     tiempo = round(time.time() - inicio, 3)
     
     return jsonify({
-        "mensaje": "Cotización generada correctamente",
+        "mensaje": "Cotizacion generada correctamente",
         "tiempo_respuesta": tiempo,
         "resultado": total
     })
